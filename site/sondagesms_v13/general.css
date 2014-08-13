@@ -44,7 +44,7 @@ h1 { font-size: 2em; font-weight: bold; font-style: italic; color: #415555; text
 /*        CADRES        */
 /************************/
 
-#page { margin: 100px auto; width: 100%; min-height: 94%; background-color: rgba(255,255,255,0.2); overflow: hidden; padding: 25px; }
+#page { margin: 150px auto; width: 100%; min-height: 94%; background-color: rgba(255,255,255,0.2); overflow: hidden; padding: 25px; }
 
 #qrcode { position: fixed; width: 100px; margin-left: 30px; margin-top: 200px; font-size:.8em; text-align: center; line-height:1.3em; }
 #qrcode li { margin-top: 2em;}
