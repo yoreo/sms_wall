@@ -10,9 +10,9 @@ header("Refresh: $sec; url=$page#details");
 //Connexion à la base de données
 $nombre_mess=0;
 $mysql_hostname = "localhost";
-$mysql_user     = "sondagesms";
-$mysql_password = "";
-$mysql_database = "sondagesms";
+$mysql_user     = "root";
+$mysql_password = "root";
+$mysql_database = "smswall";
 $titre="";
 $bd             = mysql_connect($mysql_hostname, $mysql_user, $mysql_password) or die("Oops quelque chose ne s'est pas passé comme il faut");
 mysql_select_db($mysql_database, $bd) or die("Oops quelque chose ne s'est pas passé comme il faut");
